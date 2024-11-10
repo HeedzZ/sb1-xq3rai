@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import fondImage from '../images/fond.png';
 
 export default function Hero() {
   return (
@@ -13,7 +14,7 @@ export default function Hero() {
           className="w-full h-full"
         >
           <img
-            src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+            src={fondImage}
             alt="Plats gourmands"
             className="w-full h-full object-cover"
           />
