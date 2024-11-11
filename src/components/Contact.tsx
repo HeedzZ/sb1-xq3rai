@@ -13,11 +13,11 @@ export default function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-orange-600" />
-                  <a href="tel:0652649061" className="hover:text-orange-600">06.52.64.90.61</a>
+                  <a href="tel:0652649061" className="hover:text-orange-600">06 52 64 90 61</a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Instagram className="w-5 h-5 text-orange-600" />
-                  <a href="https://instagram.com/lafrenchpoke" target="_blank" rel="noopener noreferrer" className="hover:text-orange-600">
+                  <a href="https://www.instagram.com/la_french_poke/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-600">
                     @lafrenchpoke
                   </a>
                 </div>

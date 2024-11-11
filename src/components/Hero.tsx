@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
-import fondImage from '../images/fond.png';
+import fondImage from '../images/fondtest.jpg';
 
 export default function Hero() {
   return (

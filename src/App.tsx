@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
+import Parallax from './components/Parallax';
 import About from './components/About';
 import Contact from './components/Contact';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -20,6 +21,7 @@ function App() {
         <main>
           <Hero />
           <Services />
+          <Parallax />
           <Portfolio />
           <About />
           <Contact />

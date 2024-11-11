@@ -28,7 +28,7 @@ export default function Header() {
           <Logo />
           
           <nav className="hidden md:flex items-center gap-8">
-            {['Prestations', 'À Propos', 'Contact'].map((item, index) => (
+            {['Prestations', 'About', 'Contact'].map((item, index) => (
               <motion.a
                 key={item}
                 href={`#${item.toLowerCase().replace(' ', '-')}`}
@@ -59,7 +59,7 @@ export default function Header() {
               <Phone className="w-5 h-5" />
             </motion.a>
             <motion.a
-              href="https://instagram.com/lafrenchpoke"
+              href="https://www.instagram.com/la_french_poke/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -93,7 +93,7 @@ export default function Header() {
           >
             <div className="container mx-auto px-4 py-4">
               <nav className="flex flex-col gap-4">
-                {['Prestations', 'À Propos', 'Contact'].map((item) => (
+                {['Prestations', 'About', 'Contact'].map((item) => (
                   <a
                     key={item}
                     href={`#${item.toLowerCase().replace(' ', '-')}`}

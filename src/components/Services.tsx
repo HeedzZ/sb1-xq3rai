@@ -48,7 +48,7 @@ const itemVariants = {
 
 export default function Services() {
   return (
-    <section id="prestations" className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section id="prestations" className="py-16 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
